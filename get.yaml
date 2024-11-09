@@ -1,0 +1,8 @@
+steps:
+    - name: Get colors
+      method: POST
+      url: http://colormind.io/list/
+      body: |-
+        {
+          "test": "hello"
+        }
