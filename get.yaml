@@ -1,8 +1,5 @@
 steps:
     - name: Get colors
-      method: UPDATE
+      method: GET
       url: http://colormind.io/list/
-      body: |-
-        {
-          "hello": "world"
-        }
+      body: ""
